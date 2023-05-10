@@ -52,3 +52,7 @@ def decode_full_message(message)
     word
   end
 end
+
+decoder = MorseDecoder.new
+puts decoder.decode_full_message("-- -.--   -. .- -- .")
+puts decoder.decode_full_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
