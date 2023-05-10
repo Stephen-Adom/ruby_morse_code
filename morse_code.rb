@@ -45,8 +45,7 @@ class MorseDecoder
     decoded_message = ''
     message_words = message.split('   ')
     message_words.each do |word|
-      char_array = word.split
-      decoded_message << ' ' << create_word(char_array)
+      decoded_message << decode_word(word) << ' '
     end
     decoded_message
   end
