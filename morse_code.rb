@@ -33,7 +33,7 @@ class MorseDecoder
   end
 
   def decode_char(morse)
-    @@morse_to_char.fetch(morse)
+    @morse_to_char.fetch(morse)
   end
 
   def decode_word(morse_word)
@@ -61,5 +61,7 @@ class MorseDecoder
 end
 
 decoder = MorseDecoder.new
+puts decoder.decode_char('.-')
+puts decoder.decode_word('-- -.--')
 puts decoder.decode_full_message('-- -.--   -. .- -- .')
 puts decoder.decode_full_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
