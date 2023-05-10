@@ -29,7 +29,7 @@ class MorseDecoder
   }
 
   def decode_char(morse)
-    @@morse_to_char.fetch(morse) || "?" # return "?" if the Morse code is not recognized
+    @@morse_to_char.fetch(morse)
   end
 
   def decode_word(morse_word)
