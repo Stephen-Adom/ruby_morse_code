@@ -36,6 +36,7 @@ class MorseDecoder
     morse_arr = morse_word.split(' ')
     create_word(morse_arr)
   end
+
 def decode_full_message(message)
     decoded_message = ''
     message_words = message.split("   ")
@@ -45,6 +46,7 @@ def decode_full_message(message)
     end
     decoded_message
   end
+  
   private
   def create_word(morse_array)
     word = ''
