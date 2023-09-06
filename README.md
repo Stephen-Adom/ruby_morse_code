@@ -153,7 +153,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Method to get morse code from user Input**
-- **Method to encode characters to morse code**
+- **Method to encode characters to Morse code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
